@@ -1,12 +1,13 @@
 {
   "name": "api-params",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "author": "",
+  "author": "Dhilleswara",
   "license": "ISC",
   "description": "",
   "dependencies": {
